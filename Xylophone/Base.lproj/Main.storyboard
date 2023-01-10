@@ -57,7 +57,8 @@
                                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="od5-vw-WsB"/>
+                                                    <action selector="cKeyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="od5-vw-WsB"/>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="od5-AS-WsB"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -82,6 +83,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4WP-vD-QQG"/>
+                                                    <action selector="cKeyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="4WP-AS-QQG"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -106,6 +108,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MD0-S2-pHw"/>
+                                                    <action selector="cKeyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="MD0-AS-pHw"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -130,6 +133,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qkh-Ib-khc"/>
+                                                    <action selector="cKeyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="qkh-AS-khc"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -154,6 +158,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xsc-Ya-ECc"/>
+                                                    <action selector="cKeyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="xsc-AS-ECc"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -178,6 +183,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="daL-Tr-Iv9"/>
+                                                    <action selector="cKeyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="daL-AS-Iv9"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -201,9 +207,6 @@
                             <constraint firstItem="HLG-TK-TT6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bLl-xl-0d4"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="cKeyButton" destination="DFM-uT-A7s" id="Uuk-dZ-ktx"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
